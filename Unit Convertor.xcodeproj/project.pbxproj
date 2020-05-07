@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E2F0910F24649BC2004296D1 /* Unit Convertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Convertor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F0910F24649BC2004296D1 /* Let's Convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's Convert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F0911224649BC2004296D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F0911424649BC2004296D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2F0911624649BC2004296D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E2F0911024649BC2004296D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2F0910F24649BC2004296D1 /* Unit Convertor.app */,
+				E2F0910F24649BC2004296D1 /* Let's Convert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			);
 			name = "Unit Convertor";
 			productName = "Unit Convertor";
-			productReference = E2F0910F24649BC2004296D1 /* Unit Convertor.app */;
+			productReference = E2F0910F24649BC2004296D1 /* Let's Convert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myatthuko.Unit-Convertor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Let's Convert";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myatthuko.Unit-Convertor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Let's Convert";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
