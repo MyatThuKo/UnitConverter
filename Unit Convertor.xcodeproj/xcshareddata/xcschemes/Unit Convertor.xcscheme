@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E2F0910E24649BC2004296D1"
-               BuildableName = "Unit Convertor.app"
+               BuildableName = "Let&apos;s Convert.app"
                BlueprintName = "Unit Convertor"
                ReferencedContainer = "container:Unit Convertor.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2F0910E24649BC2004296D1"
-            BuildableName = "Unit Convertor.app"
+            BuildableName = "Let&apos;s Convert.app"
             BlueprintName = "Unit Convertor"
             ReferencedContainer = "container:Unit Convertor.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2F0910E24649BC2004296D1"
-            BuildableName = "Unit Convertor.app"
+            BuildableName = "Let&apos;s Convert.app"
             BlueprintName = "Unit Convertor"
             ReferencedContainer = "container:Unit Convertor.xcodeproj">
          </BuildableReference>
