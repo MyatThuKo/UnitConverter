@@ -11,14 +11,15 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var input = ""
-    @State private var units = ["Fahrenheit", "Celsius", "Kelvin"]
     @State private var unitFrom = 0
     @State private var unitTo = 0
     
+    let tempUnits = ["Fahrenheit", "Celsius", "Kelvin"]
+    
     var convertedTemp: Double {
         let inputTemp = Double(Int(input) ?? 0)
-        let inputUnit = units[unitFrom]
-        let outputUnit = units[unitTo]
+        let inputUnit = tempUnits[unitFrom]
+        let outputUnit = tempUnits[unitTo]
         
         switch (inputUnit, outputUnit) {
         case ("Fahrenheit", "Celsius"):
@@ -41,28 +42,24 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form{
-                Section(header: Text("Enter the input")){
-                    TextField("Input Temperature", text: $input)
+                Section(header: Text("From")){
+                    Picker("From", selection: $unitFrom) {
+                        ForEach(0..<tempUnits.count) {
+                            Text("\(self.tempUnits[$0])")
+                        }
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                    TextField("Degree", text: $input)
                         .keyboardType(.decimalPad)
                 }
                 
-                Section(header: Text("Input Unit")){
-                    Picker("From", selection: $unitFrom) {
-                        ForEach(0..<units.count) {
-                            Text("\(self.units[$0])")
-                        }
-                    }
-                }
-                
-                Section(header: Text("Output Unit")){
+                Section(header: Text("To")){
                     Picker("To", selection: $unitTo) {
-                        ForEach(0..<units.count) {
-                            Text("\(self.units[$0])")
+                        ForEach(0..<tempUnits.count) {
+                            Text("\(self.tempUnits[$0])")
                         }
                     }
-                }
-                
-                Section(header: Text("Converted Temp:")){
+                    .pickerStyle(SegmentedPickerStyle())
                     Text("\(convertedTemp, specifier: "%.2f")")
                 }
             }
