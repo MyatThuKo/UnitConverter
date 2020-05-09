@@ -8,11 +8,21 @@
 
 import SwiftUI
 
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
+
 struct ContentView: View {
     
     @State private var input = ""
     @State private var unitFrom = 0
     @State private var unitTo = 0
+    
+    private func endEditing() {
+        UIApplication.shared.endEditing()
+    }
     
     let tempUnits = ["Fahrenheit", "Celsius", "Kelvin"]
     
@@ -51,6 +61,9 @@ struct ContentView: View {
                     .pickerStyle(SegmentedPickerStyle())
                     TextField("Degree", text: $input)
                         .keyboardType(.decimalPad)
+                        .onTapGesture {
+                            self.endEditing()
+                    }
                 }
                 
                 Section(header: Text("To")){
