@@ -17,7 +17,7 @@ struct ContentView: View {
     let tempUnits = ["Fahrenheit", "Celsius", "Kelvin"]
     
     var convertedTemp: Double {
-        let inputTemp = Double(Int(input) ?? 0)
+        let inputTemp = Double(Double(input) ?? 0)
         let inputUnit = tempUnits[unitFrom]
         let outputUnit = tempUnits[unitTo]
         
