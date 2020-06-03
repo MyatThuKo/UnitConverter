@@ -16,4 +16,7 @@ This app is built using the followings.
     <li> Picker </li>
     <li> Measurement </li>
   </ol>
+<br> 
+Screen Recording of the app 
+<img src="ScreenRecording.gif" width="250">
 <p><i><b> For the app icon, I use https://www.canva.com/ and https://appicon.co/ </b></i></p>
