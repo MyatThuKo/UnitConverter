@@ -21,7 +21,7 @@ struct ContentView: View {
                 NavigationLink("Temperature", destination: TempView())
                 NavigationLink("Time", destination: TimeView())
                 NavigationLink("Length", destination: LengthView())
-                NavigationLink("Volume", destination: Text("Volume"))
+                NavigationLink("Volume", destination: VolumeView())
             }
             .navigationBarTitle("Unit Convertor")
         }
