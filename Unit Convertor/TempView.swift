@@ -68,7 +68,7 @@ struct TempView: View {
                 Text("\(convertedTemp, specifier: "%g")")
             }
         }
-        .navigationBarTitle("Temperature Convertor", displayMode: .inline)
+        .navigationBarTitle("Temperature Converter", displayMode: .inline)
     }
 }
 

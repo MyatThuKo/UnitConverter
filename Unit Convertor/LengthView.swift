@@ -89,7 +89,7 @@ struct LengthView: View {
                 }
             }
         }
-        .navigationBarTitle("Temperature Convertor", displayMode: .inline)
+        .navigationBarTitle("Temperature Converter", displayMode: .inline)
     }
 }
 
