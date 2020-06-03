@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationView {
             Form {
                 NavigationLink("Temperature", destination: TempView())
-                NavigationLink("Time", destination: Text("Time"))
+                NavigationLink("Time", destination: TimeView())
                 NavigationLink("Length", destination: LengthView())
                 NavigationLink("Volume", destination: Text("Volume"))
             }
