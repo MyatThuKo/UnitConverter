@@ -4,10 +4,16 @@
 The challenge is to create an app that do unit conversion. I decided to do Temperature Conversion. 
 https://www.hackingwithswift.com/100/swiftui/19
 </p>
-<p> The challenges that I faced while building this app were 
-<ol>
-<li> How to use @State </li>
-<li> How to do data binding from the selection </li> 
-</ol> 
-<p> The app runs successfully after 3 hours of researching and coding </p>
+<h2> Update: June 3, 2020 </h2> 
+<p> Finished adding other factors for this conversion. In addition to Temperature, Length, Volume and Time are also available. 
+  I use 
+  <a href="https://www.hackingwithswift.com/example-code/system/how-to-convert-units-using-unit-and-measurement" target="_blank"> Measurement </a> for Length and Volume conversions. 
+</p>
+<p>
+This app is built using the followings. 
+  <ol> 
+    <li> Navigation Link</li>
+    <li> Picker </li>
+    <li> Measurement </li>
+  </ol>
 <p><i><b> For the app icon, I use https://www.canva.com/ and https://appicon.co/ </b></i></p>
